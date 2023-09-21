@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+
+<style>
+    .row{
+        background: gray;
+    }
+
+    p{
+        color: white;
+    }
+    .col,
+    .col-2,
+    .col-5,
+    .col-3,
+    .col-md-4,
+    .col-md-4,
+    .col-md-3
+
+
+    {
+padding: 10px;
+border: 3px solid black;
+margin-top: 20px;
+background: rgb(106, 101, 101);
+    }
+
+    .container img{
+height: 40vh;
+    }
+    
+</style>
+
+
+
+</head>
+<body>
+    
+<h1>hello world</h1>
+<div id="box" class="text-primary bg-danger">
+    hello world
+
+
+    <div id="width">
+
+    </div>
+
+
+<div class="grids">
+
+<div class="row">
+    <div class="col"></div>
+    <div class="col-5"></div>
+    <div class="col"></div>
+
+</div>
+  
+<div class="row">
+    <div class="col"></div>
+    <div class="col-5"></div>
+    <div class="col"></div>
+
+</div>
+<div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-4"></div>
+    <div class="col-md-4"></div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="container" 
+class="row row-col-xs-1"
+class="row row-col-sm-2"
+class="row row-col-md-4"
+class="row row-col-lg-4"
+class="row row-col-xl-5"
+class="row row-col-xxl-6"
+
+>
+<div class="">
+    <img src="/images/img1.jpg" class="responsive-image" alt="">
+    <img src="/images/img2.jpeg" alt="">
+    <img src="/images/img3.jpeg" alt="">
+    <img src="/images/img4.jpeg" alt="">
+    <img src="/images/img5.jpeg" alt="">
+    <img src="/images/img6.jpeg" alt="">
+    <img src="/images/img7.jpeg" alt="">
+</div>
+   
+
+</div>
+
+
+
+<script>
+window.onresize= function (e){
+ const width= document.getElementById("box").clientWidth;
+
+ const value = document.getElementById("width").innerHTML=width;
+
+
+}
+</script>
+
+<script src="/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
